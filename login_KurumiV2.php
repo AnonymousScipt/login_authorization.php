@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_USERNAME', 'PeruMizukibot'); // place username of your bot here
+define('BOT_USERNAME', '@PeruMizukibot'); // place username of your bot here
 
 function getTelegramUserData() {
   if (isset($_COOKIE['tg_user'])) {
